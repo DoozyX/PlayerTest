@@ -27,11 +27,9 @@ packages:
   better_player_ios:
     dependency: transitive
     description:
-      path: better_player_ios
-      ref: f3d219a1661360cb94e6305310af5785fc36e00b
-      resolved-ref: f3d219a1661360cb94e6305310af5785fc36e00b
-      url: "https://github.com/uniqcast/betterplayer"
-    source: git
+      path: "../betterplayer/better_player_ios"
+      relative: true
+    source: path
     version: "1.0.0"
   better_player_platform_interface:
     dependency: transitive
@@ -45,11 +43,9 @@ packages:
   better_player_web:
     dependency: transitive
     description:
-      path: better_player_web
-      ref: "81363c1ecd503dfa25196907c894cca476f66c0f"
-      resolved-ref: "81363c1ecd503dfa25196907c894cca476f66c0f"
-      url: "https://github.com/uniqcast/betterplayer"
-    source: git
+      path: "../betterplayer/better_player_web"
+      relative: true
+    source: path
     version: "1.0.0"
   boolean_selector:
     dependency: transitive
@@ -326,11 +322,9 @@ packages:
   video_js:
     dependency: transitive
     description:
-      path: "."
-      ref: caaeaceb5ea144adc7af1cce131654810af11ffc
-      resolved-ref: caaeaceb5ea144adc7af1cce131654810af11ffc
-      url: "https://github.com/uniqcast/video_js"
-    source: git
+      path: "../video_js"
+      relative: true
+    source: path
     version: "0.1.3"
   visibility_detector:
     dependency: transitive
